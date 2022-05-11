@@ -1,12 +1,7 @@
-const express = require('express');
+import express from 'express';
 
-const server = express();
+const app = express();
 
+app.listen(8080 , () => console.log('server on 3333'))
 
-server.get('/dev', (req, res) => {
-    return res.send('o pai ta on');
-});
-
-
-server.listen(3100);
-
+export default app;
