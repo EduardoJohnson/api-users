@@ -96,5 +96,5 @@ passport.serializeUser(function(user, done) {
 }),
 
 
-app.listen(3333 , () => console.log('server on 3333'))
+app.listen(8530 , () => console.log('server on 3333'))
 )
